@@ -6,7 +6,6 @@
       margin: 0;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-
     #particles-js {
       background-color: #0a0a0a;
       margin: 0;
@@ -51,7 +50,8 @@
   #logo{
     margin: 30px 20px;
   }
-  h1 {
+  
+  /* h1 {
     animation:glow 10s ease-in-out infinite;
   }
   * { box-sizing:border-box; }
@@ -62,7 +62,7 @@
   }
   figure {
     margin: 0;
-    animation:wobble s ease-in-out infinite;
+    animation:wobble 2s ease-in-out infinite;
     transform-origin:center center;
     transform-style:preserve-3d;
   }
@@ -91,7 +91,7 @@
   @keyframes glow {
     0%,100%{ text-shadow:0 0 30px red; }
     25%{ text-shadow:0 0 30px orange; }
-    50%{ text-shadow:0 0 30px forestgreen; }
+    50%{ text-shadow:0 0 30px rgb(2, 255, 2); }
     75%{ text-shadow:0 0 30px cyan; }
   }
   
@@ -104,7 +104,7 @@
   h1:nth-child(8){ transform:translateZ(35px); }
   h1:nth-child(9){ transform:translateZ(40px); }
   h1:nth-child(10){ transform:translateZ(45px); 
-}
+} */
 #tech{
   color:  rgb(34, 255, 0);
   background-color:black;
